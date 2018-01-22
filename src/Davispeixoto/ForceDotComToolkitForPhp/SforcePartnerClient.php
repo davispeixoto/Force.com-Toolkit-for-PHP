@@ -36,7 +36,7 @@ class SforcePartnerClient extends SforceBaseClient
 {
     const PARTNER_NAMESPACE = 'urn:partner.soap.sforce.com';
 
-    function SforcePartnerClient()
+    function __construct()
     {
         $this->namespace = self::PARTNER_NAMESPACE;
     }
